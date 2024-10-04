@@ -6,8 +6,8 @@ const Checkout = () => {
   const handlePayment = async () =>{
     const data = {
       name: "John Doe",
-      mobileNumber:1234567890,
-      amount:100,
+      mobileNumber:6382592767,
+      amount:1,
     }
     try {
       const response = await axios.post('http://localhost:8000/create-order', data)

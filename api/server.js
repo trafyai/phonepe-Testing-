@@ -10,14 +10,15 @@ app.use(express.json());
 app.use(cors());
 
 
-const MERCHANT_KEY="96434309-7796-489d-8924-ab56988a6076"
-const MERCHANT_ID="PGTESTPAYUAT86"
+const MERCHANT_KEY="9b8f2d8d-2dac-46ed-817d-a9de5f15ed5b"
+const MERCHANT_ID="TRAFYAIONLINE"
 
 // const prod_URL = "https://api.phonepe.com/apis/hermes/pg/v1/pay"
 // const prod_URL = "https://api.phonepe.com/apis/hermes/pg/v1/status"
 
-const MERCHANT_BASE_URL="https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/pay"
-const MERCHANT_STATUS_URL="https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/status"
+const MERCHANT_BASE_URL = "https://api.phonepe.com/apis/hermes/pg/v1/pay"; // Live payment URL
+const MERCHANT_STATUS_URL = "https://api.phonepe.com/apis/hermes/pg/v1/status"; // Live status URL
+
 
 const redirectUrl="http://localhost:8000/status"
 
